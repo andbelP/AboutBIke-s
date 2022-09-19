@@ -1,0 +1,183 @@
+@charset "UTF-8";
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+Link,
+dd {
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  /* for Chrome, Safari, and Opera */
+}
+
+a:active,
+a:hover,
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: IBMPlexSans;
+  /* Имя шрифта */
+  src: url(../typography/IBMPlexSans-Bold.ttf);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: IBMPlexSans-light;
+  /* Имя шрифта */
+  src: url(../typography/IBMPlexSans-LightItalic.ttf);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: IBMPlexSans-regular;
+  /* Имя шрифта */
+  src: url(../typography/IBMPlexSans-Regular.ttf);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: IBMPlexSans-Medium;
+  /* Имя шрифта */
+  src: url(../typography/IBMPlexSans-Medium.ttf);
+  /* Путь к файлу со шрифтом */
+}
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emptyBlock {
+  width: 20%;
+  min-width: 300px;
+  height: 100%;
+}
+
+.leftMenu {
+  position: fixed;
+  width: 20%;
+  height: 100vh;
+  min-width: 300px;
+  background: #232122;
+}
+.leftMenu__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #A5C05B;
+  font-family: IBMPlexSans;
+  margin-top: 20px;
+}
+.leftMenu__header a {
+  color: #A5C05B;
+}
+.leftMenu__logo {
+  width: 15%;
+}
+.leftMenu__logo img {
+  width: 100%;
+  height: auto;
+}
+.leftMenu .nav ul > li {
+  margin-top: 30px;
+}
+.leftMenu .nav__options ul li {
+  margin-top: 10px;
+}
+.leftMenu .nav__options ul li a {
+  color: #D9D9D9;
+  font-family: IBMPlexSans-light;
+}
+.leftMenu .nav__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #D9D9D9;
+}
+.leftMenu .nav__header a {
+  color: #D9D9D9;
+  font-family: IBMPlexSans-light;
+}
+.leftMenu .nav__header .greenBox {
+  width: 6px;
+  height: 6px;
+  background: #A5C05B;
+  margin-right: 10px;
+}
+.leftMenu__nameOfShop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+main {
+  width: 80%;
+  height: 100%;
+  min-height: 100vh;
+  background: #7BA4A8;
+}
+main .nameOfPage {
+  font-family: IBMPlexSans-regular;
+  color: #232122;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+main .pageSection {
+  width: 80%;
+  font-size: 1.3rem;
+  font-family: IBMPlexSans-Medium;
+  margin-left: 110px;
+  margin-top: 50px;
+}
+main .pageSection p {
+  color: #ffffff;
+}
+main .pageSection .source {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+main .pageSection em {
+  color: #bb0000;
+}

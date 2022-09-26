@@ -1,14 +1,20 @@
 import React from 'react';
 import bike from "../images/Untitled.svg";
 import NavHeaders from "./nav/navHeaders";
-
+import '../css/grid.css'
 import {Link,Outlet} from "react-router-dom";
+import { useMediaQuery } from 'react-responsive'
 
 const Main = () => {
+    const isDesktopOrLaptop = useMediaQuery({
+        query: '(min-width: 1224px)'
+    })
+    const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
+    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
     return (
         <div className='body'>
-            <div className="emptyBlock"></div>
-            <aside className='leftMenu'>
+            <div className="col-large-2dot5 emptyBlock"></div>
+            <aside className='leftMenu col-large-2dot5'>
                 <header className='leftMenu__header'>
                     <div className="leftMenu__nameofshop">
                         <h1><Link to='../'>About Bicycle</Link></h1>
@@ -17,6 +23,11 @@ const Main = () => {
                         <img src={bike} alt="logo"/>
                     </div>
                 </header>
+
+                <div className="menuLink">
+                    <Link to='Menu'>Список разделов</Link>
+                </div>
+
                 <nav className='leftMenu__nav nav'>
                     <ul>
                         <li>
@@ -58,7 +69,7 @@ const Main = () => {
                 </nav>
 
             </aside>
-            <main>
+            <main className=''>
                 <Outlet/>
 
             </main>

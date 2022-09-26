@@ -11,6 +11,7 @@ import './css/style.css';
 import Main from "./components/main";
 import ErrorPage from "./components/errorPage/errorPage";
 import HomePage from "./components/routes/homePage";
+import Menu from "./components/routes/Menu";
 
 const router = createBrowserRouter([
     {
@@ -26,6 +27,11 @@ const router = createBrowserRouter([
                     {
                         path: "FirstBike",
                         element: <FirstBike />,
+
+                    },
+                    {
+                        path: "Menu",
+                        element: <Menu/>,
 
                     },
 

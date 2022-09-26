@@ -15,7 +15,7 @@ const HomePage = () => {
                     ratione sit vero. Cum dignissimos eveniet illum incidunt laboriosam modi veritatis voluptate! Blanditiis cupiditate
                     debitis ducimus hic minima perspiciatis possimus quasi quibusdam, similique tempore vel voluptas! Asperiores cum
                     est minus mollitia nobis numquam, tenetur voluptas voluptatibus. Aliquid assumenda at ea et fuga maxime quisquam repellat
-                    sed totam voluptates? Asperiores, at, <em>sit</em>.
+                    sed totam voluptates? Asperiores, at, <em>lorem</em>.
                 </p>
                 <div className="source">
                     <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4">Источник: Wikipedia</a>
@@ -23,7 +23,7 @@ const HomePage = () => {
             </section>
             <section className='pageSection'>
                 <p>
-                    ВНИМАНИЕ!!! НА САЙТЕ ИМЕЕТСЯ ТОЛЬКО СТРАНИЦА "ВЫБОР ПЕРВОГО ВЕЛОСИПЕДА" <em>sit</em>.
+                    На сайте имеется только страниица "Выбор первого велосипеда" <em>sit</em>.
                 </p>
                 <div className="source">
                     <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4">Источник: Wikipedia</a>

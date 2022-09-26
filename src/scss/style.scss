@@ -2,65 +2,79 @@
 @import "typography";
 
 ////------------------------------------------
-.App{
+.App {
   display: flex;
 }
-.body{
+
+.body {
   display: flex;
 }
-.emptyBlock{
-  width: 20%;
-  min-width: 300px;
+
+.emptyBlock {
+
+
   height: 100%;
 }
-.leftMenu{
+
+.leftMenu {
   position: fixed;
-  width: 20%;
+
   height: 100vh;
-  min-width: 300px;
+
   background: #232122;
-  &__header{
+
+  &__header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: #A5C05B;
-    a{
+
+    a {
       color: #A5C05B;
     }
+
     font-family: IBMPlexSans;
     margin-top: 20px;
   }
-  &__logo{
+
+  &__logo {
     width: 15%;
-    img{
+    min-width: 50px;
+
+    img {
       width: 100%;
       height: auto;
     }
   }
 
-  .nav{
-    ul > li{
+  .nav {
+    ul > li {
       margin-top: 30px;
     }
-    &__options{
-      ul li{
-        a{
+
+    &__options {
+      ul li {
+        a {
           color: #D9D9D9;
           font-family: IBMPlexSans-light;
         }
+
         margin-top: 10px;
       }
 
     }
-    &__header{
+
+    &__header {
       display: flex;
       align-items: center;
       color: #D9D9D9;
-      a{
+
+      a {
         color: #D9D9D9;
         font-family: IBMPlexSans-light;
       }
-      .greenBox{
+
+      .greenBox {
         width: 6px;
         height: 6px;
         background: #A5C05B;
@@ -68,50 +82,148 @@
       }
     }
   }
-  &__nameOfShop{
+
+  &__nameOfShop {
 
     display: flex;
     text-align: center;
 
   }
 }
-main{
+
+.menuLink {
+  display: none;
+}
+
+@media screen and (max-width: 1415px) {
+  .leftMenu {
+    width: 100% !important;
+    height: 5vh !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px !important;
+
+    &__header {
+      width: 30%;
+      height: 80%;
+      margin-top: 0px !important;
+      display: flex;
+      justify-content: left !important;
+      white-space: nowrap;
+    }
+
+    &__logo {
+      width: 11% !important;
+      margin-left: 5%;
+      min-width: 40px !important;
+    }
+
+    &__nav {
+      width: 50%;
+      height: 80%;
+      margin-top: 0px !important;
+    }
+  }
+  .nav {
+    display: none;
+  }
+  .menuLink {
+    display: block;
+
+    a {
+      color: #D9D9D9;
+      font-family: IBMPlexSans;
+    }
+  }
+  .emptyBlock {
+    display: none
+  }
+  main {
+    width: 100% !important;
+    margin-top: 5vh;
+  }
+
+}
+.menuMain{
+  background: #232122;
+  width: 100%;
+  height: 100vh;
+  .nav {
+    display: block!important;
+    ul > li {
+      margin-top: 30px;
+    }
+
+    &__options {
+      ul li {
+        a {
+          color: #D9D9D9;
+          font-family: IBMPlexSans-light;
+        }
+
+        margin-top: 10px;
+      }
+
+    }
+
+    &__header {
+      display: flex;
+      align-items: center;
+      color: #D9D9D9;
+
+      a {
+        color: #D9D9D9;
+        font-family: IBMPlexSans-light;
+      }
+
+      .greenBox {
+        width: 6px;
+        height: 6px;
+        background: #A5C05B;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+main {
   width: 80%;
   height: 100%;
   min-height: 100vh;
   background: #7BA4A8;
-  .nameOfPage{
+
+  .nameOfPage {
     font-family: IBMPlexSans-regular;
     color: #232122;
     margin-left: 100px;
     margin-top: 30px;
   }
-  .pageSection{
+
+  .pageSection {
     width: 80%;
     font-size: 1.3rem;
     font-family: IBMPlexSans-Medium;
     margin-left: 110px;
     margin-top: 50px;
-    p{
+
+    p {
       color: #ffffff;
     }
-    .source{
+
+    .source {
       display: flex;
       justify-content: right;
+
+      a {
+        color: #424242;
+      }
     }
-    em{
+
+    em {
       color: #bb0000;
     }
   }
 }
-
-
-
-
-
-
-
-
 
 
 //.body{

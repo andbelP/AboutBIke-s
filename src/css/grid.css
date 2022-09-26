@@ -1,0 +1,205 @@
+.col-large-12 {
+    width: calc(100% - 30px);
+}
+
+/* 12 колонок из 12*/
+.col-large-11 {
+    width: calc(91.6% - 30px);
+}
+
+/* 11 колонок из 12*/
+.col-large-10 {
+    width: calc(83.333% - 30px);
+}
+
+/* 10 колонок из 12*/
+.col-large-9 {
+    width: calc(75% - 30px);
+}
+
+/* 9 колонок из 12*/
+.col-large-8 {
+    width: calc(66.666% - 30px);
+}
+
+/* 8 колонок из 12*/
+.col-large-7 {
+    width: calc(58.333% - 30px);
+}
+
+/* 7 колонок из 12*/
+.col-large-6 {
+    width: calc(50% - 30px);
+}
+
+/* 6 колонок из 12*/
+.col-large-5 {
+    width: calc(41.666% - 30px);
+}
+
+/* 5 колонок из 12*/
+.col-large-4 {
+    width: calc(33.333% - 30px);
+}
+
+/* 4 колонки из 12*/
+.col-large-3 {
+    width: calc(25% - 30px);
+}
+
+/* 3 колонки из 12*/
+.col-large-2 {
+    width: calc(16.666% - 30px);
+}
+
+.col-large-2dot5{
+    width: calc(20.833% - 30px);
+}
+
+/* 2 колонки из 12*/
+.col-large-1 {
+    width: calc(8.333% - 30px);
+}
+
+/* 1 колонка из 12*/
+
+@media screen and (max-width: 960px) {
+
+    .capture{
+        margin-top: 15vh;
+    }
+    .col-medium-12 {
+        width: calc(100% - 30px);
+    }
+
+    /* 12 колонок из 12*/
+    .col-medium-11 {
+        width: calc(91.6% - 30px);
+    }
+
+    /* 11 колонок из 12*/
+    .col-medium-10 {
+        width: calc(83.333% - 30px);
+    }
+
+    /* 10 колонок из 12*/
+    .col-medium-9 {
+        width: calc(75% - 30px);
+    }
+
+    /* 9 колонок из 12*/
+    .col-medium-8 {
+        width: calc(66.666% - 30px);
+    }
+
+    /* 8 колонок из 12*/
+    .col-medium-7 {
+        width: calc(58.333% - 30px);
+    }
+
+    /* 7 колонок из 12*/
+    .col-medium-6 {
+        width: calc(50% - 30px);
+    }
+
+    /* 6 колонок из 12*/
+    .col-medium-5 {
+        width: calc(41.666% - 30px);
+    }
+
+    /* 5 колонок из 12*/
+    .col-medium-4 {
+        width: calc(33.333% - 30px);
+    }
+
+    /* 4 колонки из 12*/
+    .col-medium-3 {
+        width: calc(25% - 30px);
+    }
+
+    /* 3 колонки из 12*/
+    .col-medium-2 {
+        width: calc(16.666% - 30px);
+    }
+
+    .col-medium-2dot5{
+        width: calc(20.833% - 30px);
+    }
+
+    /* 2 колонки из 12*/
+    .col-medium-1 {
+        width: calc(8.333% - 30px);
+    }
+
+    /* 1 колонка из 12*/
+}
+
+@media screen and (max-width: 480px) {
+
+    .col-small-12 {
+        width: calc(100% - 30px);
+    }
+    .capture{
+        margin-top: 23vh;
+    }
+    /* 12 колонок из 12*/
+    .col-small-11 {
+        width: calc(91.6% - 30px);
+    }
+
+    /* 11 колонок из 12*/
+    .col-small-10 {
+        width: calc(83.333% - 30px);
+    }
+
+    /* 10 колонок из 12*/
+    .col-small-9 {
+        width: calc(75% - 30px);
+    }
+
+    /* 9 колонок из 12*/
+    .col-small-8 {
+        width: calc(66.666% - 30px);
+    }
+
+    /* 8 колонок из 12*/
+    .col-small-7 {
+        width: calc(58.333% - 30px);
+    }
+
+    /* 7 колонок из 12*/
+    .col-small-6 {
+        width: calc(50% - 30px);
+    }
+
+    /* 6 колонок из 12*/
+    .col-small-5 {
+        width: calc(41.666% - 30px);
+    }
+
+    /* 5 колонок из 12*/
+    .col-small-4 {
+        width: calc(33.333% - 30px);
+    }
+
+    /* 4 колонки из 12*/
+    .col-small-3 {
+        width: calc(25% - 30px);
+    }
+
+    .col-small-2dot5{
+        width: calc(20.833% - 30px);
+    }
+
+    /* 3 колонки из 12*/
+    .col-small-2 {
+        width: calc(16.666% - 30px);
+    }
+
+    /* 2 колонки из 12*/
+    .col-small-1 {
+        width: calc(8.333% - 30px);
+    }
+
+    /* 1 колонка из 12*/
+}
